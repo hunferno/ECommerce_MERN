@@ -42,10 +42,14 @@ const Logo = styled.h1`
 
 const Right = styled.div`
   flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 `;
 const MenuItem = styled.div`
   font-style: 14px;
   cursor: pointer;
+  margin-left: 25px;
 `;
 
 export const Navbar = () => {
@@ -56,7 +60,7 @@ export const Navbar = () => {
           <Language>EN</Language>
           <SearchContainer>
             <Input />
-            {/* <SearchIcon /> */}
+            <SearchIcon style={{ color: "gray", fontSize: 16 }} />
           </SearchContainer>
         </Left>
         <Center>
@@ -65,9 +69,11 @@ export const Navbar = () => {
         <Right>
           <MenuItem>REGISTER</MenuItem>
           <MenuItem>SIGN IN</MenuItem>
-          <Badge badgeContent={4} color="primary">
-            <ShoppingCartOutlinedIcon />
-          </Badge>
+          <MenuItem>
+            <Badge badgeContent={4} color="primary">
+              <ShoppingCartOutlinedIcon />
+            </Badge>
+          </MenuItem>
         </Right>
       </Wrapper>
     </Container>
