@@ -1,0 +1,7 @@
+Dépendences à installer :
+- express -> Creation des routes
+- mongoose -> Creation des modeles
+- dotenv -> stockage des données secretes
+- nodemon -> rafraichissement de l'application apres tout changement
+- crypto-js -> Pour crypter les psw / on peut choisir bcrypt egalement
+- 
