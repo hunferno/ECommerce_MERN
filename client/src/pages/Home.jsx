@@ -1,4 +1,3 @@
-import React from "react";
 import { Annoncement } from "../components/Annoncement";
 import { Categories } from "../components/Categories";
 import { Footer } from "../components/Footer";
