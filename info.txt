@@ -4,4 +4,6 @@ Dépendences à installer :
 - dotenv -> stockage des données secretes
 - nodemon -> rafraichissement de l'application apres tout changement
 - crypto-js -> Pour crypter les psw / on peut choisir bcrypt egalement
-- 
+- jsonwebtoken -> verifie via un token si le user appartient a la DB
+- stripe -> pour les payments en ligne
+- cors -> pour les acces au site
