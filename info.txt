@@ -1,3 +1,14 @@
+-------------------FRONT-END DEPENDENCIES------------------------------
+- @mui/material
+- @mui/material @mui/styled-engine-sc
+- styled-components -> Faire du css en components
+- react-router-dom
+- axios -> faire des requetes vers la DB
+
+
+
+-------------------BACK-END DEPENDENCIES------------------------------
+
 Dépendences à installer :
 - express -> Creation des routes
 - mongoose -> Creation des modeles
